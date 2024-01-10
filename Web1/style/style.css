@@ -67,3 +67,11 @@ body:has(button:active) {
 body:has(button:active) {
   background-color: var(--background-color-2);
 }
+
+@media only screen and (max-width: 764px) {
+  button {
+    width: 400px;
+    height: 400px;
+    font-size: 3rem;
+  }
+}
