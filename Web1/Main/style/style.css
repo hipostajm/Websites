@@ -40,11 +40,11 @@ header {
   justify-content: space-between;
   align-items: center;
 }
-header > img {
+header img {
   height: 4rem;
   transition: 0.5s;
 }
-header > img:hover {
+header img:hover {
   scale: 0.95;
 }
 .cat {
