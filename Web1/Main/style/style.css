@@ -53,7 +53,7 @@ header img:hover {
 .cat {
   border-radius: 4rem;
   width: 30rem;
-  animation: appiring 3s scroll-timeline;
+  /*animation: appiring 3s scroll-timeline;*/
 }
 main {
   display: flex;
