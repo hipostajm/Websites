@@ -53,6 +53,7 @@ header img:hover {
 .cat {
   border-radius: 4rem;
   width: 30rem;
+  animation: appiring 3s scroll-timeline;
 }
 main {
   display: flex;
@@ -75,5 +76,13 @@ footer {
 @media only screen and (max-width: 764px) {
   .cat {
     width: 20rem;
+  }
+}
+@keyframes appiring {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 100%;
   }
 }
