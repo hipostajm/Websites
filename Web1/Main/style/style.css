@@ -57,7 +57,8 @@ header img:hover {
 main {
   display: flex;
   align-items: center;
-  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
   padding: 1.5rem;
   gap: 4rem;
 }
