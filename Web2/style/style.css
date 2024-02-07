@@ -1,0 +1,53 @@
+:root {
+  --background-color-1: #131313;
+  --background-color-2: #1b1515;
+  --background-color-3: #342424;
+
+  --border-color-1: #613434;
+
+  --shadow-color-1: #232323;
+}
+
+body {
+  background: var(--background-color-1);
+  min-height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  gap: 7rem;
+  align-items: center;
+}
+header {
+  width: 100%;
+  height: 10vh;
+  position: sticky;
+  top: 0;
+}
+header > ul {
+  display: flex;
+  gap: 1.5rem;
+  flex-direction: row-reverse;
+  padding: 1rem;
+}
+.HeaderNav > button {
+  width: 3rem;
+  height: 3rem;
+  background-color: var(--background-color-3);
+  border-radius: 0.5rem;
+  border: 0;
+  cursor: pointer;
+  transition: 300ms;
+}
+.HeaderNav > button:hover {
+  scale: 1.1;
+}
+.HeaderNav > button:active {
+  scale: 0.96;
+}
+main {
+  background: #515050;
+  width: 600px;
+  height: 5rem;
+  border-radius: 3rem;
+  border: 2px solid #fff;
+}
