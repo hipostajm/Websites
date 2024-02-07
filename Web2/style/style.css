@@ -45,7 +45,7 @@ header > ul {
   scale: 0.96;
 }
 main {
-  background: #515050;
+  background: rgba(60, 59, 59, 0.5);
   width: 600px;
   height: 5rem;
   border-radius: 3rem;
